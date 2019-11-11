@@ -9,4 +9,4 @@ class Sol(pygame.sprite.Sprite):
 
 	def afficher(self, surface):
 
-		pygame.draw.rect(surface, (255, 0, 0), self.rect, 2)
+		pygame.draw.rect(surface, (255, 0, 0), self.rect)
